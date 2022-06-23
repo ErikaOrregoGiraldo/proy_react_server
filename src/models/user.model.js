@@ -23,6 +23,10 @@ const user = mongoose.Schema({
     type: String,
     require: true,
   },
+  active: {
+    type: Boolean,
+    require: true,
+  },
   avatar: {
     type: String,
     require: false,
